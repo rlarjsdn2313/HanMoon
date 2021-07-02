@@ -9,6 +9,11 @@ app.get('/', (req, res) => {
 });
 
 
+app.get('/getdata/', (req, res) => {
+	
+});
+
+
 app.listen(port, () => {
 	console.log(`server is running...(port:${port})`);
 });
